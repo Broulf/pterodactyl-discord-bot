@@ -75,7 +75,7 @@ python ptero-discord-bot.py
 Once the bot is running, you should see the message:  
 `<bot_name> has connected to Discord!`
 
-### Pterodactyl Egg Installation
+## Pterodactyl Egg Installation
 
 If you are installing the bot via a Pterodactyl Egg, follow the instructions below:
 
