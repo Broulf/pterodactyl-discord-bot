@@ -1,4 +1,3 @@
-```md
 # Discord Bot with API Integration
 
 This Discord bot allows users to interact with an external server management API. It provides commands to list servers, start, stop, and fetch server information.
