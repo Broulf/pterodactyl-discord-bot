@@ -83,4 +83,3 @@ Once the bot is running, you should see the message:
 ## License
 
 This project is licensed under the MIT License.
-```
