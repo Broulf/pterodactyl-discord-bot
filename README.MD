@@ -103,7 +103,7 @@ If you are installing the bot via a Pterodactyl Egg, follow the instructions bel
 ## Notes
 
 - Ensure your bot has the necessary permissions on the Discord server to read messages and send responses.
-- Your API should support the requests made by the bot.
+- Your API should support the requests made by the bot. This API key should be a personal one from the user settings and NOT an application key.
 
 ## License
 
