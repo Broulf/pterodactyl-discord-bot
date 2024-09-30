@@ -21,7 +21,7 @@ Before you begin, ensure you have the following:
 2. Install the required dependencies:
 
    ```bash
-   pip install requirements.txt
+   pip install -r requirements.txt
    ```
 
 ## Setup
