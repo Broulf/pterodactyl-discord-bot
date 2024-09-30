@@ -46,6 +46,14 @@ Before you begin, ensure you have the following:
    }
    ```
 
+## Running the Bot
+
+After setting up the bot, run the following command to start it:
+
+```bash
+python ptero-discord-bot.py
+```
+
 ## Commands
 
 ### `/servers`
@@ -64,16 +72,33 @@ Before you begin, ensure you have the following:
 - **Description**: Fetch information about a server.
 - **Usage**: `/info <server_id>`
 
-## Running the Bot
-
-After setting up the bot, run the following command to start it:
-
-```bash
-python ptero-discord-bot.py
-```
-
 Once the bot is running, you should see the message:  
 `<bot_name> has connected to Discord!`
+
+### Pterodactyl Egg Installation
+
+If you are installing the bot via a Pterodactyl Egg, follow the instructions below:
+
+1. **Egg Configuration:**
+   - **Git Repo Address**: Do not change this.
+   - **Git Branch**: Do not change this.
+   - **Auto Update**: Set this as per your preference:
+     - `0` = false (default)
+     - `1` = true
+   - **App py file**: Do not change this.
+   - **Requirements file**: Do not change this.
+
+2. **Port Allocation**: Assign any available port.
+
+3. **Resource Limits**:
+   - **CPU Limit**: 100%
+   - **Memory**: 512MB
+   - **Disk Space**: 512MB
+
+4. **Important Note**: After installing the egg, the application will crash three times during the initial installation. This is normal. After the crashes:
+   - Go to the `Files` tab in the Pterodactyl panel.
+   - Locate and edit the `pterodactyl-discord-bot.py` file.
+   - Replace the placeholder values (such as `BOT_TOKEN`, `API_URL`, and `API_KEY`) with your actual values.
 
 ## Notes
 
